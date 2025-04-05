@@ -1,0 +1,20 @@
+.headerSection {
+    padding: 0px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 150px 150px;
+    width: 100%;
+    height: 100%;
+    background-color: 4285F4;
+    margin: 0 10% 0 10%;
+}
+
+.appName {
+    float: left;
+    margin-left: 41px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    line-height: 1.167;
+    font-weight: 300;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+.layout {
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 60px 40px auto 100px;
+    overflow-x: hidden;
+}
+
+.headerSection {
+    background-color: rgba(52,53,65,var(--tw-bg-opacity));
+
+    position: relative;
+    top: 0;
+}
+
+.navigationSection {
+    background-color: #272b30;
+}
+
+.contentRenderSection {
+    background-color: #fff;
+    padding: 20px;
+    color: #000;
+    margin: 0 10% 0 10%;
+}
+
+.footerSection {
+    background-color: #fff;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    color: #565869;
+    padding: 0 120px 0 120px;
+    justify-content: center ;
+    color: #565869;
+}
+
+.separator {
+    border-top: 0.1px solid #555555;
+    padding: 5px;
+    margin: 0 10% 0 10%;
+}
+
+.appName {
+    float: left;
+    margin-left: 41px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    line-height: 1.167;
+    font-weight: 300;
+    text-align: center;
+}
